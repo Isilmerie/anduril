@@ -223,6 +223,9 @@
 // We want this bugfix on everything except the original t85 LT1 (because it doesn't fit)
 #define USE_TINT_RAMP_DIRECTION_FIX
 
+//enable additional turbo styles by default (size impact of these should be minimal)
+#define USE_ADDITIONAL_TURBO_STYLES
+
 // Enables quick aux LED switching
 // Will cause build errors for lights with only 8KB flash MCUs (eg, ATTINY==85) unless some other stuff is undefined
 // #define USE_QUICK_AUX_SWITCH

@@ -102,3 +102,4 @@
 // add config menu for ultra low modes instead of level 1
 #define USE_ULTRA_LOW_MODE
 
+#define USE_PREVIOUS_CHANNEL

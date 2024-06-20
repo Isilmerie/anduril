@@ -169,6 +169,10 @@ Config cfg = {
         .jump_start_level = DEFAULT_JUMP_START_LEVEL,
     #endif
 
+    #ifdef USE_ULTRA_LOW_MODE
+        .ultra_low_mode = DEFAULT_ULTRA_LOW_MODE,
+    #endif
+
     ///// quick aux switch saved previous modes
     #ifdef USE_QUICK_AUX_SWITCH
        #ifdef USE_INDICATOR_LED

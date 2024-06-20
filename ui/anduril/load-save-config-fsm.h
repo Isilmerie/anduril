@@ -123,6 +123,10 @@ typedef struct Config {
         uint8_t jump_start_level;
     #endif
 
+    #ifdef USE_ULTRA_LOW_MODE
+        uint8_t ultra_low_mode;
+    #endif
+
    ///// quick aux switch saved previous modes
    #ifdef USE_QUICK_AUX_SWITCH
        uint8_t previous_indicator_led_mode;

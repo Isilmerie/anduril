@@ -84,7 +84,7 @@ Config cfg = {
             .blink_channel = DEFAULT_BLINK_CHANNEL,
         #endif
         #if (defined(USE_PREVIOUS_CHANNEL) && !defined(PREVIOUS_CHANNEL_REPLACES_LOCKOUT))
-            .previous_channel_enabled = 0,
+            .previous_channel_enabled = 1,
         #endif
     #endif
     #ifdef USE_CHANNEL_MODE_ARGS

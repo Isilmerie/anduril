@@ -25,7 +25,7 @@ This fork incorporates the following upstream pull requests:
 - [#110: bugfix: remove dependency on voltage correction for post-off voltage](https://github.com/ToyKeeper/anduril/pull/110)
 - [#112: Fix handling of DEFAULT_BIKING_LEVEL and MAX_BIKING_LEVEL.](https://github.com/ToyKeeper/anduril/pull/112)
 - [#114: Improved three-channel interface and 3-channel strobes](https://github.com/ToyKeeper/anduril/pull/114)
-    - Strobes only; HSV interface is great but I prefer having 2-channel tintramps
+    - Merged without reordering channels and preserving 2-channel tintramps
 
 
 As well as [stcarlso's ultra low mode](https://github.com/stcarlso/anduril/tree/ultra-low-mode)

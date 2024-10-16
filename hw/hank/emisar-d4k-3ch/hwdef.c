@@ -245,7 +245,7 @@ void set_level_led14_blend(uint8_t level) {
 void set_level_hsv(uint8_t level) {
     RGB_t color;
     uint8_t h = cfg.channel_mode_args[channel_mode];
-    uint8_t s = 255;  // TODO: drop saturation at brightest levels
+    uint8_t s = cfg.secondary_channel_mode_args[channel_mode];
     PWM_DATATYPE v = PWM_GET(pwm1_levels, level);
     color = hsv2rgb(h, s, v);
 
@@ -385,7 +385,7 @@ bool gradual_tick_hsv(uint8_t gt) {
     // figure out what exact PWM levels we're aiming for
     RGB_t color;
     uint8_t h = cfg.channel_mode_args[channel_mode];
-    uint8_t s = 255;  // TODO: drop saturation at brightest levels
+    uint8_t s = cfg.secondary_channel_mode_args[channel_mode];
     PWM_DATATYPE v = PWM_GET(pwm1_levels, gt);
     color = hsv2rgb(h, s, v);
 

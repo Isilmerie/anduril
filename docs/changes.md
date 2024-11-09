@@ -8,6 +8,7 @@ This fork incorporates the following upstream pull requests:
 - [#33: Implement channel_uses_aux() (Fixes issue #29)](https://github.com/ToyKeeper/anduril/pull/33)
     - Merged without prohibiting aux channels in candle mode and bike flasher
 - [#36: Added missing channel mode to d4k-3ch, clarified modes in comments](https://github.com/ToyKeeper/anduril/pull/36)
+- [#37: Added support for loneoceans Lume1 Lume X1 designs and some Anduril updates](https://github.com/ToyKeeper/anduril/pull/37)
 - [#38: Add a third turbo style, similar to 2 but allowing 2C to ceiling then immediately again to turbo](https://github.com/ToyKeeper/anduril/pull/38)
 - [#50: New feature: Select previous channel mode with 4C, optionally instead of 4C ramp -> lock](https://github.com/ToyKeeper/anduril/pull/50)
     - Changed so that when USE_PREVIOUS_CHANNEL is defined, 4C in ramping mode goes back one channel by default

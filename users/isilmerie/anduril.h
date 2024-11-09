@@ -49,10 +49,11 @@
 
 
 
-
 // ----- BLINKY/UTILITY MODES -----
 
-// nothing yet
+#define USE_BEACONTOWER_MODE
+#define USE_LONG_BLINK_FOR_NEGATIVE_SIGN
+
 
 
 
